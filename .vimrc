@@ -9,7 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'https://github.com/Lokaltog/vim-powerline.git'
 Plugin 'tpope/vim-fugitive'
 "Plugin 'scrooloose/syntastic'
-"Plugin 'valloric/youcompleteme'
+Plugin 'valloric/youcompleteme'
 Plugin 'bling/vim-airline'
 
 call vundle#end()
@@ -36,13 +36,13 @@ set expandtab
 
 " Airline
 set laststatus=2
-set t_Co=256
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#branch#displayed_head_limit = 10
 let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#virtualenv#enabled = 1
+let g:airline#extensions#ycm#enabled = 1
 
 let mapleader = '§'
 let g:airline#extensions#tabline#buffer_idx_mode = 1
