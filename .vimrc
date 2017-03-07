@@ -24,6 +24,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Youcompleteme
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
 " Syntastic
 "set statusline+=%#warningmsg#
 "set statusline+=%{SyntasticStatuslineFlag()}
