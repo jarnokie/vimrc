@@ -17,6 +17,10 @@ call plug#end()
 set mouse=a
 set number
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " === SuperTab ===
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
